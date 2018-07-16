@@ -1,4 +1,5 @@
 ﻿using System;
+using ATMBankSimulation.view;
 
 namespace ATMBankSimulation
 {
@@ -6,7 +7,7 @@ namespace ATMBankSimulation
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            MainView.GenerateGeneralMenu();
         }
     }
 }

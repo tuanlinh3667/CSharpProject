@@ -3,4 +3,11 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="MySql.Data" Version="8.0.11" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="error" />
+    <Folder Include="model" />
+  </ItemGroup>
 </Project>
